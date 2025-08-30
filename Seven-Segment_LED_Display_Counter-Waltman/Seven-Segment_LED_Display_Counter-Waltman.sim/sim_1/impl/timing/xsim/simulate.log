@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+Time	Reset		SSD
+0	0		xxxxxxx
+6000	0		xxxxx1x
+6000	0		xxxx11x
+6000	0		xxx111x
+6000	0		xx1111x
+6000	0		xx11110
+6000	0		x111110
+6000	0		1111110
+50000	1		1111110

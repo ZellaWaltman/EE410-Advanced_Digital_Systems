@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1/pmod_ssd.tcl"
+  variable script "C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1/pmod_ssd.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,24 +56,22 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 1
 set_param general.usePosixSpawnForFork 1
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.cache/wt} [current_project]
-set_property parent.project_path {C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.xpr} [current_project]
+set_property webtalk.parent_dir C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.cache/wt [current_project]
+set_property parent.project_path C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.cache/ip} [current_project]
+set_property ip_output_repo c:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib {{C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.srcs/sources_1/new/Seven Segment.v}}
+read_verilog -library xil_defaultlib {{C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.srcs/sources_1/new/Seven Segment.v}}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -83,12 +81,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/pynq_z2_constraint.xdc}}
-set_property used_in_implementation false [get_files {{C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/pynq_z2_constraint.xdc}}]
+read_xdc C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/pynq_z2_constraint.xdc
+set_property used_in_implementation false [get_files C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/pynq_z2_constraint.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental {C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.srcs/utils_1/imports/synth_1/pmod_ssd.dcp}
+read_checkpoint -auto_incremental -incremental C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.srcs/utils_1/imports/synth_1/pmod_ssd.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

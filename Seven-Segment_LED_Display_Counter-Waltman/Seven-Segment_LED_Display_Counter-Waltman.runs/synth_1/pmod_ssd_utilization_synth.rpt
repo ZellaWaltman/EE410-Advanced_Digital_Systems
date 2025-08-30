@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Wed Aug 27 20:04:31 2025
+| Date         : Fri Aug 29 12:28:14 2025
 | Host         : ZELLAWALTMAE706 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file pmod_ssd_utilization_synth.rpt -pb pmod_ssd_utilization_synth.pb
 | Design       : pmod_ssd
@@ -93,7 +93,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |    9 |     0 |          0 |       125 |  7.20 |
+| Bonded IOB                  |   10 |     0 |          0 |       125 |  8.00 |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |          0 |       130 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         4 |  0.00 |
@@ -152,7 +152,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | FDCE     |   31 |        Flop & Latch |
 | LUT2     |   26 |                 LUT |
 | LUT4     |   11 |                 LUT |
-| OBUF     |    7 |                  IO |
+| OBUF     |    8 |                  IO |
 | CARRY4   |    7 |          CarryLogic |
 | FDPE     |    6 |        Flop & Latch |
 | LUT6     |    2 |                 LUT |

@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2025.1
-| Date         : Wed Aug 27 20:06:37 2025
+| Date         : Fri Aug 29 12:30:47 2025
 | Host         : ZELLAWALTMAE706
 | Design       : design_1
 | Device       : xc7z020-clg400-1--

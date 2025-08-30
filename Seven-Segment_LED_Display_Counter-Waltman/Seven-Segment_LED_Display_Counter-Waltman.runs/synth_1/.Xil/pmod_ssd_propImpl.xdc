@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/pynq_z2_constraint.xdc} rfile:../../../pynq_z2_constraint.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/pynq_z2_constraint.xdc rfile:../../../pynq_z2_constraint.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN H16   IOSTANDARD LVCMOS33 } [get_ports { sys_clk }]; #IO_L13P_T2_MRCC_35 Sch=sysclk
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]

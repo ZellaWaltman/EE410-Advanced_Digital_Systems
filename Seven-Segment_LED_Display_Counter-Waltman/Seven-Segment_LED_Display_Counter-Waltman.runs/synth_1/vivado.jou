@@ -3,12 +3,12 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Wed Aug 27 20:03:13 2025
-# Process ID         : 10036
-# Current directory  : C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1
+# Start of session at: Fri Aug 29 12:26:44 2025
+# Process ID         : 8396
+# Current directory  : C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1
 # Command line       : vivado.exe -log pmod_ssd.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pmod_ssd.tcl
-# Log file           : C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1/pmod_ssd.vds
-# Journal file       : C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1\vivado.jou
+# Log file           : C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1/pmod_ssd.vds
+# Journal file       : C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/synth_1\vivado.jou
 # Running On         : ZELLAWALTMAE706
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26100
@@ -17,8 +17,8 @@
 # CPU Physical cores : 4
 # CPU Logical cores  : 4
 # Host memory        : 4288 MB
-# Swap memory        : 4791 MB
-# Total Virtual      : 9080 MB
-# Available Virtual  : 1826 MB
+# Swap memory        : 2707 MB
+# Total Virtual      : 6996 MB
+# Available Virtual  : 1430 MB
 #-----------------------------------------------------------
 source pmod_ssd.tcl -notrace

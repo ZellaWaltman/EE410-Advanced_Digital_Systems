@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date             : Wed Aug 27 20:07:39 2025
+| Date             : Fri Aug 29 12:31:47 2025
 | Host             : ZELLAWALTMAE706 running 64-bit major release  (build 9200)
 | Command          : report_power -file pmod_ssd_power_routed.rpt -pb pmod_ssd_power_summary_routed.pb -rpx pmod_ssd_power_routed.rpx
 | Design           : pmod_ssd
@@ -59,7 +59,7 @@ Table of Contents
 |   Register     |    <0.001 |       37 |    106400 |            0.03 |
 |   Others       |     0.000 |        2 |       --- |             --- |
 | Signals        |    <0.001 |       75 |       --- |             --- |
-| I/O            |    <0.001 |        9 |       125 |            7.20 |
+| I/O            |    <0.001 |       10 |       125 |            8.00 |
 | Static Power   |     0.106 |          |           |                 |
 | Total          |     0.107 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+

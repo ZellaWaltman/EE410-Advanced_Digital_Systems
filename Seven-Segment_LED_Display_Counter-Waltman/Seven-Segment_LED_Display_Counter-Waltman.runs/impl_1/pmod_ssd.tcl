@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/impl_1/pmod_ssd.tcl"
+  variable script "C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.runs/impl_1/pmod_ssd.tcl"
   variable category "vivado_impl"
 }
 
@@ -110,7 +110,7 @@ set rc [catch {
   set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 2  }
   open_checkpoint pmod_ssd_routed.dcp
-  set_property webtalk.parent_dir {C:/Mac/Home/Documents/GitHub/EE 410/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.cache/wt} [current_project]
+  set_property webtalk.parent_dir C:/Mac/Home/Documents/GitHub/EE410-Advanced_Digital_Systems/Seven-Segment_LED_Display_Counter-Waltman/Seven-Segment_LED_Display_Counter-Waltman.cache/wt [current_project]
 set_property TOP pmod_ssd [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

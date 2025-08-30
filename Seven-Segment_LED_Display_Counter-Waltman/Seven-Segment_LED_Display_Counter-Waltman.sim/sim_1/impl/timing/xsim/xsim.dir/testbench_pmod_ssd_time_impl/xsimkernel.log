@@ -1,0 +1,7 @@
+Running: xsim.dir/testbench_pmod_ssd_time_impl/xsimk.exe -simmode gui -wdb testbench_pmod_ssd_time_impl.wdb -simrunnum 0 -socket 55802
+Design successfully loaded
+Design Loading Memory Usage: 16844 KB (Peak: 16844 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 19756 KB (Peak: 19756 KB)
+Simulation CPU Usage: 171 ms
